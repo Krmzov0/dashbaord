@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./style.css">
 
 </head>
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden ">
     <div class="fixed hidden md:flex flex-col justify-between items-center bg-[#242529] h-screen w-[20%] p-6">
         <h1 class="text-[#F5E6D8] text-2xl">Wise</h1>
 
@@ -27,8 +27,25 @@
 
     </div>
 
-    <div class="md:ml-[20%] relative h-20 flex items-center  bg-black px-10">
-        <h1 class="text-white">ffds</h1>
+    <div class="md:ml-80  relative h-20 flex items-center  bg-[#242529] space-x-64 py-16 flex-row justify-evenly">
+        <h1 class="text-[#f1f2ee] text-3xl">Statistics</h1>
+        <div id="search" class="flex flex-row items-center justify-center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-5">
+                <path d="M10.7828 18.8276C12.3741 18.8298 13.9302 18.3601 15.2544 17.4781C16.5785 16.596 17.6112 15.3413 18.2216 13.8726C18.832 12.4039 18.9929 10.7872 18.6837 9.2271C18.3746 7.66702 17.6093 6.23364 16.4849 5.10831C15.3604 3.98299 13.9272 3.2163 12.3666 2.90525C10.8061 2.5942 9.18823 2.75277 7.71786 3.3609C6.24748 3.96902 4.99062 4.99937 4.10632 6.32158C3.22202 7.64379 2.75 9.19844 2.75 10.7888C2.75 12.919 3.59596 14.9621 5.10209 16.4693C6.60821 17.9766 8.65135 18.8248 10.7828 18.8276Z" stroke="#f1f2ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.4883 16.491L21.25 21.25" stroke="#f1f2ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <input type="text" placeholder="Search something..." class=" py-2 bg-transparent text-[#f1f2ee] placeholder:text-[#f1f2ee]/50  outline-none ">
+        </div>
+        <div id="upgrade" class="flex flex-row items-center justify-center gap-x-6">
+            <button class="px-8 py-3 bg-[#FFF27A] text-[#242529] rounded-2xl font-semibold">Upgrade</button>
+            <div class=" border border-[#DCDCDD]/30 p-3 rounded-2xl ">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.9623 17.9861H18.7715C19.0367 18.0009 19.3014 17.9476 19.5401 17.8311C19.7788 17.7146 19.9837 17.5389 20.1352 17.3207C20.2868 17.1026 20.38 16.8493 20.406 16.585C20.432 16.3206 20.3898 16.0541 20.2835 15.8106C19.9245 14.7229 18.4887 13.4176 18.4887 12.134C18.4887 9.28415 18.4887 8.53361 17.0855 6.85847C16.6306 6.31932 16.0672 5.88198 15.4321 5.57493L14.6489 5.19422C14.5172 5.11567 14.4034 5.01012 14.3153 4.88451C14.2273 4.75892 14.1667 4.61609 14.1377 4.46542C14.0596 3.95781 13.7914 3.4989 13.3873 3.18178C12.9833 2.86465 12.4739 2.71303 11.9623 2.75766C11.4595 2.72728 10.9636 2.88545 10.5713 3.20127C10.1791 3.5171 9.91866 3.96784 9.84113 4.46542C9.80599 4.62092 9.7371 4.76682 9.63938 4.89276C9.54163 5.01869 9.4174 5.12161 9.27548 5.19422L8.4923 5.57493C7.8572 5.88198 7.29385 6.31932 6.83892 6.85847C5.43572 8.53361 5.43572 9.28415 5.43572 12.134C5.43572 13.4176 4.06516 14.5923 3.70621 15.7454C3.48865 16.4415 3.369 17.9861 5.18554 17.9861H11.9623Z" stroke="#f1f2ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15.2254 17.9861C15.2342 18.4171 15.156 18.8455 14.9951 19.2453C14.8343 19.6453 14.5943 20.0086 14.2895 20.3134C13.9846 20.6182 13.6213 20.8582 13.2214 21.0191C12.8214 21.18 12.3932 21.2583 11.9622 21.2493C11.5312 21.2583 11.1029 21.18 10.7029 21.0191C10.303 20.8582 9.93969 20.6182 9.63491 20.3134C9.3301 20.0086 9.09006 19.6453 8.92922 19.2453C8.76837 18.8455 8.69004 18.4171 8.69892 17.9861" stroke="#f1f2ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
